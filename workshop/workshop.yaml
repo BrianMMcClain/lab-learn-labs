@@ -1,0 +1,13 @@
+name: Markdown Sample
+
+modules:
+    activate:
+    - workshop-overview
+    - workshop-layout
+    - exercises/01-setup-new-workshop
+    - exercises/02-markdown-execute
+    - exercises/03-interrupts
+    - exercises/04-copy-and-paste
+    - exercises/05-variables
+    - exercises/06-describing-modules
+    - exercises/07-describing-workshops

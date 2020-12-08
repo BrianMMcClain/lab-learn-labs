@@ -1,0 +1,26 @@
+modules:
+    workshop-overview:
+        name: Workshop Overview
+        exit_sign: Setup Environment
+    setup-environment:
+        name: Setup Environment
+        exit_sign: Start Workshop
+    workshop-layout:
+        name: Workshop Layout
+    exercises/01-setup-new-workshop:
+        name: Set Up a New Workshop
+    exercises/02-markdown-execute:
+        name: Executing Commands
+    exercises/03-interrupts:
+        name: Sending Interrupts
+    exercises/04-copy-and-paste:
+        name: Copy and Paste
+    exercises/05-variables:
+        name: Variables
+    exercises/06-describing-modules:
+        name: Describing Modules
+    exercises/07-describing-workshops:
+        name: Describing Workshops
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop

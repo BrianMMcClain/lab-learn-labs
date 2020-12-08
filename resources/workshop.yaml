@@ -1,0 +1,25 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: lab-learn-labs
+spec:
+  title: Learn How to Build a Workshop
+  description: Learn How to Build a Workshop
+  vendor: eduk8s.io
+  difficulty: beginner
+  duration: 15m
+  url: https://github.com/eduk8s/lab-markdown-sample
+  content:
+    image: brianmmcclain/lab-learn-labs:latest
+    #files: github.com/BrianMMcClain/lab-learn-labs
+  session:
+    namespaces:
+      budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
