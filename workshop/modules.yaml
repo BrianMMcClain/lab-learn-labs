@@ -19,7 +19,7 @@ modules:
         name: Variables
     exercises/06-describing-modules:
         name: Describing Modules
-    exercises/07-describing-workshops:
+    exercises/07-describing-workshop:
         name: Describing Workshops
     workshop-summary:
         name: Workshop Summary

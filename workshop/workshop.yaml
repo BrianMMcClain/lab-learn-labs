@@ -10,4 +10,4 @@ modules:
     - exercises/04-copy-and-paste
     - exercises/05-variables
     - exercises/06-describing-modules
-    - exercises/07-describing-workshops
+    - exercises/07-describing-workshop
