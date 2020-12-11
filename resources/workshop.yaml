@@ -20,6 +20,6 @@ spec:
         enabled: true
         layout: split
       console:
-        enabled: true
+        enabled: false
       editor:
         enabled: true

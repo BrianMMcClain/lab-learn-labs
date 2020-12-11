@@ -1,1 +1,1 @@
-This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+Welcome! In this workshop, you'll learn the basic layout as well as the markdown annotation used to build your own workshop. First we'll take a look at the different important files and discuss what they do, then walk through some examples of how you can annotate your workshop to run comands, copy text, and more!

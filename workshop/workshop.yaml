@@ -11,3 +11,4 @@ modules:
     - exercises/05-variables
     - exercises/06-describing-modules
     - exercises/07-describing-workshop
+    - workshop-summary
