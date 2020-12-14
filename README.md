@@ -1,27 +1,14 @@
-LAB - Markdown Sample
+LAB - Learn to Create a Workshop
 =====================
 
-Sample workshop content using Markdown formatting for pages.
+This is a lab designed to cover the basic layout and content of a workshop, including the markdown annotation for clickable actions.
 
-For more detailed information on how to create and deploy workshops, consult
-the documentation for eduk8s at:
+The topics covered in this lab include:
 
-* https://docs.eduk8s.io
-
-If you already have the eduk8s operator installed and configured, to deploy
-and view this sample workshop, run:
-
-```
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/workshop.yaml
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/training-portal.yaml
-```
-
-This will deploy a training portal hosting just this workshop. To get the
-URL for accessing the training portal run:
-
-```
-kubectl get trainingportal/lab-markdown-sample
-```
-
-The training portal is configured to allow anonymous access. For your own
-workshop content you should consider removing anonymous access.
+1. Setting up a new workshop
+2. Annotating markdown to executing commands
+3. Sending interrupts
+4. Copying and pasting
+5. Variables
+6. `modules.yaml` file layout
+7. `workshop.yaml` file layout
