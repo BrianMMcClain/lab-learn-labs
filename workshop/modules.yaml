@@ -21,6 +21,8 @@ modules:
         name: Describing Modules
     exercises/07-describing-workshop:
         name: Describing Workshops
+    exercises/08-docker:
+        name: Docker
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
