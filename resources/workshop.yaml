@@ -22,4 +22,8 @@ spec:
       console:
         enabled: false
       editor:
+        enabled: false
+      registry:
+        enabled: true
+      docker:
         enabled: true
