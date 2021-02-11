@@ -23,6 +23,10 @@ modules:
         name: Describing Workshops
     exercises/08-docker:
         name: Docker
+    exercises/09-prepare-workshop:
+        name: Prepare Your Workshop
+    exercises/10-deploy-workshop:
+        name: Deploy Your Workshop
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

@@ -1,10 +1,12 @@
-You have the ability to provide a running Docker daemon for the user in case you need to allow them to build and run container images. This is in abled in the `workshop.yaml` file:
+You have the ability to provide a running Docker daemon for the user in case you need to allow them to build and run container images. Additionally, you may provide the user a temporary private container registray that they can use to push container to. These can be enabled in the `workshop.yaml` file:
 
 ```
 spec:
   session:
     applications:
       docker:
+        enabled: true
+      registry:
         enabled: true
 ```
 
@@ -35,9 +37,11 @@ These values are available within the workshop as well, just as other variables 
 You can use this information to build your lab and push it to the local registry:
 
 ```terminal:execute
-command: docker build . -t $REGISTRY_HOST/my-lab
+command: |+ 
+  cd ~/lab-learn-labs
+  docker build . -t {{ registry_host }}/my-lab
 ```
 
 ```terminal:execute
-command: docker push $REGISTRY_HOST/my-lab
+command: docker push {{ registry_host }}/my-lab
 ```

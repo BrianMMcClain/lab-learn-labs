@@ -12,4 +12,6 @@ modules:
     - exercises/06-describing-modules
     - exercises/07-describing-workshop
     - exercises/08-docker
+    - exercises/09-prepare-workshop
+    - exercises/10-deploy-workshop
     - workshop-summary
